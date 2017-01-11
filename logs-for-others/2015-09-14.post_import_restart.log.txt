@@ -1,0 +1,84 @@
+Sep 14, 2015 10:57:49 AM org.structr.core.Services initialize
+INFO: Reading structr.conf..
+Sep 14, 2015 10:57:50 AM org.structr.core.Services getResources
+INFO: Found 0 possible resources: []
+Sep 14, 2015 10:57:52 AM org.structr.module.JarConfigurationProvider scanResources
+INFO: 3 JARs scanned
+Sep 14, 2015 10:57:52 AM org.structr.core.Services initialize
+INFO: Starting services
+Sep 14, 2015 10:57:52 AM org.structr.core.graph.NodeService initialize
+INFO: Initializing database (./db) ...
+Sep 14, 2015 10:57:57 AM org.structr.core.graph.NodeService initialize
+INFO: Database ready.
+Sep 14, 2015 10:58:00 AM org.structr.cron.CronService initialize
+WARNING: No cron expression for task , ignoring.
+Sep 14, 2015 10:58:00 AM org.structr.agent.AgentService run
+INFO: AgentService started
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService initialize
+INFO: Running in asynchronous mode
+2015-09-14 10:58:00.199:INFO::main: Logging initialized @10817ms
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService initialize
+INFO: Adding servlet org.structr.rest.servlet.JsonRestServlet-26f78b7c@7088597==org.structr.rest.servlet.JsonRestServlet,1,true for /structr/rest/*
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService initialize
+INFO: Adding servlet org.structr.web.servlet.HtmlServlet-236c90fa@7d981931==org.structr.web.servlet.HtmlServlet,2,true for /structr/html/*
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService initialize
+INFO: Adding servlet org.structr.websocket.servlet.WebSocketServlet-47b1fb4b@fe8e2ba0==org.structr.websocket.servlet.WebSocketServlet,3,true for /structr/ws/*
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService initialize
+INFO: Adding servlet org.structr.rest.servlet.CsvServlet-1b9ccd98@de43c3c1==org.structr.rest.servlet.CsvServlet,4,true for /structr/csv/*
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService initialize
+INFO: Adding servlet org.structr.web.servlet.UploadServlet-65e3cca9@8463514c==org.structr.web.servlet.UploadServlet,5,true for /structr/upload/*
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService startService
+INFO: Starting Structr UI (host=0.0.0.0:8082, maxIdleTime=30000, requestHeaderSize=8192)
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService startService
+INFO: Base path .
+Sep 14, 2015 10:58:00 AM org.structr.rest.service.HttpService startService
+INFO: Structr UI started at http://0.0.0.0:8082
+2015-09-14 10:58:00.400:INFO:oejs.Server:main: jetty-9.2.9.v20150224
+2015-09-14 10:58:00.522:INFO:/:main: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: loaded (conf ok)
+2015-09-14 10:58:00.704:INFO:oejsh.ContextHandler:main: Started o.e.j.s.ServletContextHandler@4cba0e09{/,[file:/usr/lib/structr-ui/, jar:file:/usr/lib/structr-ui/lib/structr-rest-1.1-SNAPSHOT.jar!/],AVAILABLE}
+2015-09-14 10:58:00.705:INFO:oejsh.ContextHandler:main: Started o.e.j.s.h.ContextHandler@4aef9839{/structr,null,AVAILABLE}
+2015-09-14 10:58:00.714:INFO:oejs.ServerConnector:main: Started ServerConnector@7e439a1f{HTTP/1.1}{0.0.0.0:8082}
+2015-09-14 10:58:00.715:INFO:oejs.Server:main: Started @11333ms
+Sep 14, 2015 10:58:00 AM org.structr.files.ftp.FtpService startService
+INFO: Starting FTP server on port 8021
+10:58:00.918 [main] INFO  o.a.ftpserver.impl.DefaultFtpServer - FTP server started
+Sep 14, 2015 10:58:00 AM org.structr.cloud.CloudService startService
+INFO: CloudService successfully started.
+Sep 14, 2015 10:58:00 AM org.structr.neo4j.Neo4jService startService
+INFO: Starting Neo4j server on port 7474
+2015-09-14 10:58:01.845:INFO:oejs.Server:main: jetty-9.2.9.v20150224
+2015-09-14 10:58:01.857:INFO:oejsh.ContextHandler:main: Started o.e.j.s.h.MovedContextHandler@61ea19bc{/,null,AVAILABLE}
+Sep 14, 2015 10:58:01 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'
+2015-09-14 10:58:02.752:INFO:oejsh.ContextHandler:main: Started o.e.j.s.ServletContextHandler@3272ae49{/db/manage,null,AVAILABLE}
+Sep 14, 2015 10:58:02 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'
+2015-09-14 10:58:03.209:INFO:oejsh.ContextHandler:main: Started o.e.j.s.ServletContextHandler@2acfce8a{/db/data,null,AVAILABLE}
+2015-09-14 10:58:03.375:INFO:oejsh.ContextHandler:main: Started o.e.j.w.WebAppContext@2998d2fd{/browser,jar:file:/usr/lib/structr-ui/lib/neo4j-browser-2.2.4.jar!/browser,AVAILABLE}
+Sep 14, 2015 10:58:03 AM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.19 02/11/2015 03:25 AM'
+2015-09-14 10:58:03.537:INFO:oejsh.ContextHandler:main: Started o.e.j.s.ServletContextHandler@c45895{/,null,AVAILABLE}
+2015-09-14 10:58:03.539:INFO:oejs.ServerConnector:main: Started ServerConnector@450a8e7c{HTTP/1.1}{0.0.0.0:7474}
+2015-09-14 10:58:03.539:INFO:oejs.Server:main: Started @14157ms
+Sep 14, 2015 10:58:03 AM org.structr.core.Services initialize
+INFO: 7 service(s) processed
+Sep 14, 2015 10:58:03 AM org.structr.core.Services initialize
+INFO: Registering shutdown hook.
+Sep 14, 2015 10:58:03 AM org.structr.core.Services initialize
+INFO: Initialization complete
+Sep 14, 2015 10:58:04 AM org.structr.schema.compiler.NodeExtender compile
+INFO: Compiling 11 dynamic entities
+Sep 14, 2015 10:58:12 AM org.structr.core.graph.ModificationQueue doValidation
+INFO: 3,573 ms
+INFO: Shutting down...
+2015-09-14 10:59:57.511:INFO:oejs.ServerConnector:Thread-2: Stopped ServerConnector@7e439a1f{HTTP/1.1}{0.0.0.0:8082}
+2015-09-14 10:59:57.525:INFO:oejsh.ContextHandler:Thread-2: Stopped o.e.j.s.h.ContextHandler@4aef9839{/structr,null,UNAVAILABLE}
+2015-09-14 10:59:57.529:INFO:oejs.ServerConnector:Thread-21: Stopped ServerConnector@450a8e7c{HTTP/1.1}{0.0.0.0:7474}
+2015-09-14 10:59:57.538:INFO:/:Thread-2: org.tuckey.web.filters.urlrewrite.UrlRewriteFilter INFO: destroy called
+2015-09-14 10:59:57.537:INFO:oejsh.ContextHandler:Thread-21: Stopped o.e.j.s.ServletContextHandler@c45895{/,null,UNAVAILABLE}
+2015-09-14 10:59:57.541:INFO:oejsh.ContextHandler:Thread-2: Stopped o.e.j.s.ServletContextHandler@4cba0e09{/,[file:/usr/lib/structr-ui/, jar:file:/usr/lib/structr-ui/lib/structr-rest-1.1-SNAPSHOT.jar!/],UNAVAILABLE}
+2015-09-14 10:59:57.570:INFO:oejsh.ContextHandler:Thread-21: Stopped o.e.j.w.WebAppContext@2998d2fd{/browser,jar:file:/usr/lib/structr-ui/lib/neo4j-browser-2.2.4.jar!/browser,UNAVAILABLE}
+2015-09-14 10:59:57.575:INFO:oejsh.ContextHandler:Thread-21: Stopped o.e.j.s.ServletContextHandler@2acfce8a{/db/data,null,UNAVAILABLE}
+2015-09-14 10:59:57.580:INFO:oejsh.ContextHandler:Thread-21: Stopped o.e.j.s.ServletContextHandler@3272ae49{/db/manage,null,UNAVAILABLE}
+2015-09-14 10:59:57.581:INFO:oejsh.ContextHandler:Thread-21: Stopped o.e.j.s.h.MovedContextHandler@61ea19bc{/,null,UNAVAILABLE}
+INFO: Shutdown complete
